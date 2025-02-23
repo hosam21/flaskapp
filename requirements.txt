@@ -19,4 +19,5 @@ tiktoken==0.7.0
 langchain-community==0.3.18
 torch==2.2.2
 typing-extensions==4.11.0 
-flask>=2.0
+flask==3.1.0
+gunicorn==23.0.0
