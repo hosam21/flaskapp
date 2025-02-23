@@ -1,0 +1,8 @@
+[start]
+cmd="gunicorn app:app"
+[phases.setup]
+nixPkgs = [
+  "libGL",
+  "poppler_utils",
+  "tesseract",
+]
