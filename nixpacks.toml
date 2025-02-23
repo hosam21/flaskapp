@@ -6,4 +6,6 @@ nixPkgs = [
   "libGL",
   "poppler_utils",
   "tesseract",
+  "python3Full",
+  "python3-venv"
 ]
